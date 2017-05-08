@@ -230,5 +230,79 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: 10px; }
 .patter .img {
   padding: 30px 0; }
+.patter .btn-large {
+  padding: 10px;
+  font-size: 14px;
+  vertical-align: middle;
+  border: 1px solid #ebebeb;
+  color: #ee4415;
+  background-color: #fff;
+  line-height: 0;
+  outline: none;
+  margin-right: 3px;
+  margin: 25px 0;
+  cursor: pointer;
+  margin-right: 10px; }
+.patter .btn-list {
+  padding: 10px;
+  font-size: 14px;
+  vertical-align: middle;
+  border: 1px solid #ebebeb;
+  color: #3e3e3e;
+  background-color: #fff;
+  line-height: 0;
+  outline: none;
+  margin-right: 3px;
+  margin: 25px 0;
+  cursor: pointer; }
+  .patter .btn-list:hover {
+    color: #ee4415; }
+.patter .compare {
+  text-decoration: none;
+  color: #bfbfbf;
+  text-transform: uppercase;
+  margin-left: 10px; }
+.patter .selected {
+  height: 38px;
+  width: 70%;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  color: #bfbfbf;
+  outline: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 22px 0; }
+.patter .selected2 {
+  height: 38px;
+  width: 25%;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  color: #bfbfbf;
+  outline: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 22px 3px; }
+.patter .title-products {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 17px;
+  text-transform: uppercase; }
+  .patter .title-products:hover {
+    color: #ee4415; }
+.patter .desc {
+  text-align: center;
+  display: block; }
+  .patter .desc .price-news {
+    color: #e03916;
+    margin-right: 5px; }
+  .patter .desc .price-old {
+    text-decoration: line-through; }
+.patter .products {
+  margin-bottom: 50px; }
+
+/*newletter*/
+.newletter {
+  background-image: url(../images/newsletter.png);
+  height: 500px; }
 
 /*# sourceMappingURL=style.css.map */

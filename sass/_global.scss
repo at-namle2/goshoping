@@ -14,6 +14,7 @@ $color: (
   orange: #e03916,
   organge: #ee4415,
   arr_boder: #ebebeb,
+  gray_compare: #bfbfbf,
 );
 body {
   color: map-get($color, grays);

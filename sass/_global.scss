@@ -1,0 +1,21 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+$color: (
+  black: #000,
+  white: #fff,
+  grays: #3e3e3e,
+  gray: #272727,
+  black_gray: #1e1e1e,
+  gray_d: #f6f7f7,
+);
+body {
+  color: map-get($color, grays);
+  font-size: 14px;
+  font-weight: 400px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}

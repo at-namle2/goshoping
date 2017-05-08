@@ -9,6 +9,10 @@ $color: (
   gray: #272727,
   black_gray: #1e1e1e,
   gray_d: #f6f7f7,
+  gray_baba: #333,
+  gray_mo: #777,
+  orange: #e03916,
+  organge: #ee4415,
 );
 body {
   color: map-get($color, grays);

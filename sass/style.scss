@@ -22,3 +22,91 @@
     width: (100% - (12/$i - 1) * 2.6)/(12/$i);
   }
 }
+
+/*header*/
+/*bg-top-bar*/
+.bg-top-bar {
+  background-color: map-get($color, gray);
+  .dropdown {
+    display: inline-block;
+    vertical-align: top;
+    height: 44px;
+    border-right: 1px solid map-get($color, gray_baba);
+    a {
+      display: block;
+      height: 44px;
+      padding: 11px 20px 10px 20px;
+      color: map-get($color, gray_mo);
+      text-transform: uppercase;
+      text-decoration: none;
+      &:hover {
+        color: map-get($color, orange);
+      }
+    }
+  }
+  .menu-bar {
+    margin: 0;
+    padding: 0;
+    .menu-bar-item {
+      display: inline-block;
+      vertical-align: top;
+      height: 44px;
+      border-left: 1px solid map-get($color, gray_baba);
+      text-transform: uppercase;
+      list-style: none;
+      text-align: left;
+      a {
+        padding: 13px 15px 10px 20px;
+        display: block;
+        color: map-get($color, gray_mo);
+        height: 44px;
+        text-decoration: none;
+        &:hover {
+        color: map-get($color, orange);
+       }
+      }
+    }
+  }
+}
+/*bg-top-menu*/
+.bg-top-menu {
+  background-color: map-get($color, black_gray);
+  height: 100px;
+  .logo {
+    img {
+      padding: 28px 18px;
+    }
+  }
+  .menu {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    .menu-item {
+      display: inline-block;
+      margin: 39px 21px;
+      a {
+        font-size: 16px;
+        color: map-get($color, white);
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        height: 58px;
+        &:hover {
+          color: map-get($color, organge);
+          border-bottom: 3px solid map-get($color, organge);
+        }
+      }
+      .fa {
+        color: map-get($color, gray_mo);
+        font-size: 16px;
+        &:hover {
+          color: map-get($color, white);
+        }
+      }
+    }
+    .active {
+      color: map-get($color, organge) !important;
+      border-bottom: 3px solid map-get($color, organge);
+    }
+  }
+}

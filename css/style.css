@@ -5,12 +5,21 @@
 body {
   color: #3e3e3e;
   font-size: 14px;
-  font-weight: 400px; }
+  font-weight: 400px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4; }
 
 * {
   margin: 0;
   padding: 0; }
 
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: Roboto; }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../font/Roboto_Black.ttf"); }
 .row::after {
   content: '';
   clear: both;
@@ -112,7 +121,7 @@ body {
     height: 100px; }
     .bg-top-menu .menu .menu-item {
       display: inline-block;
-      margin: 39px 21px; }
+      margin: 38px 20px; }
       .bg-top-menu .menu .menu-item a {
         font-size: 16px;
         color: #fff;
@@ -131,5 +140,95 @@ body {
     .bg-top-menu .menu .active {
       color: #ee4415 !important;
       border-bottom: 3px solid #ee4415; }
+
+/*desktop*/
+.desktop {
+  background-color: #f6f7f7;
+  height: 220px;
+  display: block;
+  text-align: center; }
+  .desktop .title-desktop {
+    font-size: 24px;
+    padding: 90px 0 5px; }
+  .desktop .menu-desktop {
+    margin: 0;
+    padding: 0; }
+    .desktop .menu-desktop .menu-desktop-item:first-child {
+      display: inline-block;
+      padding: 0 5px;
+      list-style: none; }
+      .desktop .menu-desktop .menu-desktop-item:first-child a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #777; }
+        .desktop .menu-desktop .menu-desktop-item:first-child a:before {
+          content: "\f015";
+          font: normal normal normal 14px/1 FontAwesome;
+          padding-right: 3px;
+          font-size: 12px; }
+          .desktop .menu-desktop .menu-desktop-item:first-child a:before:hover {
+            color: #000; }
+    .desktop .menu-desktop .menu-desktop-item {
+      display: inline-block;
+      padding: 0 5px;
+      list-style: none; }
+      .desktop .menu-desktop .menu-desktop-item a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #777; }
+        .desktop .menu-desktop .menu-desktop-item a:hover {
+          color: #000; }
+        .desktop .menu-desktop .menu-desktop-item a:before {
+          content: "\f0a9";
+          font: normal normal normal 14px/1 FontAwesome;
+          padding-right: 3px;
+          font-size: 12px; }
+
+/*section*/
+.patter .title-heading {
+  font-size: 24px;
+  padding: 30px 0 0 0;
+  border: none; }
+.patter .list {
+  padding-bottom: 15px; }
+  .patter .list .list-item {
+    list-style: none; }
+  .patter .list .catery {
+    margin-top: 30px; }
+    .patter .list .catery .catery-text {
+      color: #ee4415;
+      padding: 5px 0 21px 0;
+      text-align: left;
+      border-bottom: 1px solid #ebebeb;
+      position: relative;
+      text-transform: uppercase;
+      font-weight: 800;
+      line-height: 1;
+      cursor: pointer;
+      margin-top: 30px; }
+      .patter .list .catery .catery-text span {
+        display: inline-block;
+        font-size: 18px; }
+      .patter .list .catery .catery-text:before {
+        content: '';
+        position: absolute;
+        background: #ee4415;
+        width: 50px;
+        height: 3px;
+        bottom: -1px;
+        left: 0; }
+    .patter .list .catery .catery-text1 {
+      padding: 20px 0 21px 0;
+      text-align: left;
+      border-bottom: 1px solid #ebebeb; }
+      .patter .list .catery .catery-text1 .check {
+        margin-right: 10px; }
+    .patter .list .catery .catery-text2 {
+      padding: 20px 0 21px 0;
+      text-align: left; }
+      .patter .list .catery .catery-text2 .check {
+        margin-right: 10px; }
+.patter .img {
+  padding: 30px 0; }
 
 /*# sourceMappingURL=style.css.map */

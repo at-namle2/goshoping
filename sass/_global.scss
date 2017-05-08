@@ -13,13 +13,25 @@ $color: (
   gray_mo: #777,
   orange: #e03916,
   organge: #ee4415,
+  arr_boder: #ebebeb,
 );
 body {
   color: map-get($color, grays);
   font-size: 14px;
   font-weight: 400px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
 }
 * {
   margin: 0;
   padding: 0;
+}
+
+h1, h2, h3 , h4 , h5 , h6 {
+  text-transform: uppercase;
+  font-family: Roboto;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto_Black.ttf');
 }

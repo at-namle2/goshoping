@@ -305,9 +305,101 @@
   .products {
     margin-bottom: 50px;
   }
+  .pagination {
+    padding: 8px 0 0 0;
+    .text-pagi {
+      padding: 45px 0 40px 0;
+      text-align: center;
+      display: block;
+      border-top: 1px solid map-get($color, arr_boder);
+      width: 100%;
+      .pagi {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        .ac-pagi {
+          color: map-get($color, organge) !important;
+        }
+        .pagi-item {
+          display: inline-block;
+          width: 42px;
+          height: 42px;
+          border: 1px solid map-get($color, arr_boder);
+          border-radius: 40px;
+          text-align: center;
+          margin: 0px 3px 10px 3px;
+          font-size: 17px;
+          line-height: 2.4;
+          a {
+             text-decoration: none;
+             color: map-get($color, grays);
+          }
+        }
+      }
+    }
+  }
 }
 /*newletter*/
 .newletter {
   background-image: url(../images/newsletter.png);
   height: 500px;
+  .letter {
+    display: block;
+    text-align: center;
+    margin-top: 82px;
+    .subscribe {
+    margin: 0px;
+    font-size: 34px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    background: url(../images/bg-heading-3.png) top center no-repeat;
+    padding: 45px 0px 0px 0px;
+    text-transform: uppercase;
+  }
+  .up {
+    font-size: 22px;
+    padding: 11px 0px 0px 0px;
+    margin: 0px;
+    text-transform: none;
+   }
+   .lorem {
+    padding: 0px 0px 53px 0px;
+    margin: 0px auto;
+    font-size: 18px;
+    color: map-get($color, lorem);
+   }
+   .email {
+    margin: 0px;
+    box-shadow: none !important;
+    background: none !important;
+    border: 1px solid rgba(255, 255, 255, .3);
+    height: 42px;
+    padding-left: 19px;
+    width: 402px;
+    max-width: 100%;
+    color: #999;
+    font-size: 14px;
+    vertical-align: top;
+    margin-top: 30px;
+    outline: none;
+   }
+   .button-subscribe {
+    height: 43px;
+    border-radius: 2px;
+    vertical-align: top;
+    margin: 30px 0px 0px 29px;
+    padding: 10px 43px 9px 43px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: map-get($color, white);
+    background: map-get($color, organge);
+    &:hover {
+      color: map-get($color, white);
+      background: map-get($color, black_gray);
+    }
+   }
+  }
 }

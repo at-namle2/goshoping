@@ -299,10 +299,89 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: line-through; }
 .patter .products {
   margin-bottom: 50px; }
+.patter .pagination {
+  padding: 8px 0 0 0; }
+  .patter .pagination .text-pagi {
+    padding: 45px 0 40px 0;
+    text-align: center;
+    display: block;
+    border-top: 1px solid #ebebeb;
+    width: 100%; }
+    .patter .pagination .text-pagi .pagi {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .patter .pagination .text-pagi .pagi .ac-pagi {
+        color: #ee4415 !important; }
+      .patter .pagination .text-pagi .pagi .pagi-item {
+        display: inline-block;
+        width: 42px;
+        height: 42px;
+        border: 1px solid #ebebeb;
+        border-radius: 40px;
+        text-align: center;
+        margin: 0px 3px 10px 3px;
+        font-size: 17px;
+        line-height: 2.4; }
+        .patter .pagination .text-pagi .pagi .pagi-item a {
+          text-decoration: none;
+          color: #3e3e3e; }
 
 /*newletter*/
 .newletter {
   background-image: url(../images/newsletter.png);
   height: 500px; }
+  .newletter .letter {
+    display: block;
+    text-align: center;
+    margin-top: 82px; }
+    .newletter .letter .subscribe {
+      margin: 0px;
+      font-size: 34px;
+      line-height: 1;
+      color: #fff;
+      font-weight: 800;
+      text-align: center;
+      background: url(../images/bg-heading-3.png) top center no-repeat;
+      padding: 45px 0px 0px 0px;
+      text-transform: uppercase; }
+    .newletter .letter .up {
+      font-size: 22px;
+      padding: 11px 0px 0px 0px;
+      margin: 0px;
+      text-transform: none; }
+    .newletter .letter .lorem {
+      padding: 0px 0px 53px 0px;
+      margin: 0px auto;
+      font-size: 18px;
+      color: #ddd; }
+    .newletter .letter .email {
+      margin: 0px;
+      box-shadow: none !important;
+      background: none !important;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      height: 42px;
+      padding-left: 19px;
+      width: 402px;
+      max-width: 100%;
+      color: #999;
+      font-size: 14px;
+      vertical-align: top;
+      margin-top: 30px;
+      outline: none; }
+    .newletter .letter .button-subscribe {
+      height: 43px;
+      border-radius: 2px;
+      vertical-align: top;
+      margin: 30px 0px 0px 29px;
+      padding: 10px 43px 9px 43px;
+      border: none;
+      outline: none;
+      text-transform: uppercase;
+      color: #fff;
+      background: #ee4415; }
+      .newletter .letter .button-subscribe:hover {
+        color: #fff;
+        background: #1e1e1e; }
 
 /*# sourceMappingURL=style.css.map */

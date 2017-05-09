@@ -350,6 +350,8 @@ h1, h2, h3, h4, h5, h6 {
       padding: 11px 0px 0px 0px;
       margin: 0px;
       text-transform: none; }
+      .newletter .letter .up .special {
+        color: #ee4415; }
     .newletter .letter .lorem {
       padding: 0px 0px 53px 0px;
       margin: 0px auto;
@@ -383,5 +385,48 @@ h1, h2, h3, h4, h5, h6 {
       .newletter .letter .button-subscribe:hover {
         color: #fff;
         background: #1e1e1e; }
+
+/*footer*/
+.goshop {
+  background: #141414; }
+  .goshop .about-us {
+    padding: 67px 0 0 0; }
+    .goshop .about-us .oc {
+      padding: 20px 0 14px;
+      color: #979797; }
+    .goshop .about-us .social-icons {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .goshop .about-us .social-icons .social-icons-item {
+        padding: 0 4px 0 0;
+        vertical-align: top;
+        display: inline-block; }
+        .goshop .about-us .social-icons .social-icons-item a {
+          border: 1px solid #2e2e2e;
+          color: #2e2e2e;
+          border-radius: 100%;
+          display: block;
+          width: 32px;
+          height: 32px;
+          text-align: center;
+          background: transparent;
+          line-height: 2.2; }
+  .goshop .my-account {
+    color: #fff;
+    font-size: 16px;
+    padding: 76px 0 23px 0; }
+  .goshop .account {
+    margin: 0;
+    padding: 0; }
+    .goshop .account .account-item {
+      list-style: none;
+      display: block; }
+      .goshop .account .account-item a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #979797; }
+        .goshop .account .account-item a:hover {
+          color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
